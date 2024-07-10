@@ -1,0 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex: 2;
+}
+
+.links a {
+  color: black;
+  font-size: 14px;
+}
+
+.logo {
+  flex: 1;
+}
+
+.btn-div {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.btn-div button {
+  padding: 8px 15px;
+  border-radius: 5px;
+  background-color: rgb(201, 25, 201);
+  color: white;
+  border: none;
+  align-items: end;
+  cursor: pointer;
+}
